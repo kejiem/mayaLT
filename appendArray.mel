@@ -1,3 +1,5 @@
+//Append item to array
 string $test[];
 $test[`size $test`] = "test";
+//$test[size($test)] = "test";    //This also works.
 print $test[0];
